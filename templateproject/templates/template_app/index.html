@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+{% extends "template_app/base.html" %}
+{% load myfilters %}
+  {% block body_block %}
+    <h1>Welcome to Index</h1>
+    <h1>Index.html showing</h1>
+    <h1>{{text}}</h1>
+    <h1>{{number}}</h1>
+    <h1>upper cased text {{text|upper}}</h1>
+    <h1>Number added to 10 {{number|add:"10"}}</h1>
+    <h1>{{text|cuts:'Hello'}}</h1>
+  {% endblock %}

@@ -25,7 +25,7 @@ SECRET_KEY = '!rpmaahl@y4d-epibhav66vqy@v022e()66fx1fhdw094#)@-#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://skaari.pythonanywhere.com/"]
 
 
 # Application definition
@@ -65,7 +65,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-        
+
 
     },
 ]
